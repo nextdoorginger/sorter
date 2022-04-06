@@ -1,0 +1,111 @@
+#mainTable{
+    font-size: 18px;
+    font-family: 'Alata', Alata;
+    text-align: center;
+    vertical-align: middle;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+    }
+    
+    #topField{
+    width: 700;
+    height: 100; 
+    border: 1px solid #000; 
+    cursor: pointer;
+    background-color: #e097d9;
+    }
+    
+    #topButton{ 
+    width: 700;  
+    height: 100;   
+    border: 1px solid #000;  
+    cursor: pointer;
+    }
+    
+    #emptyField{
+    width: 700;
+    height: 100;
+    border: 0px solid #000; 
+    }
+     
+    #leftField{
+    width: 120px;
+    height: 200px;
+    border: 1px solid #000;
+    cursor: pointer;
+    }
+     
+    #rightField{
+    width: 120px;
+    height: 200px;
+    border: 1px solid #000;
+    cursor: pointer;
+    }
+     
+    .middleField{
+    width: 120px;
+    height: 90px;
+    border: 1px solid #000;
+    cursor: pointer;
+    }
+     
+    a{
+    color: #e097d9;
+    text-decoration : none;
+    }
+     
+    a:hover{
+    color: #8f8f8f;
+    }
+     
+    body {
+    margin: 0 auto;
+    font-family: 'Alata', Alata;
+    }
+    
+    .button {
+      background-color: #e097d9; /* Green */
+      border: none;
+      color: white;
+      padding: 10px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 12px;
+      font-family: 'Alata', Alata;
+    }
+
+    .instructions {
+        font-family: 'Assistant';
+        font-size: 16px;
+        width: 600px;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .container {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+    }
+
+    .navbar {
+        padding: 20px;
+        background-color: #d3e6e8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .navbar a, .navbar strong {
+        margin-right: 15px;
+    }
+
+    .checkbox {
+        color:aqua;
+    }

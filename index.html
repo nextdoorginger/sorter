@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- stylesheets and metadata go here -->
+        <title>Photos</title>   
+        <link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>    
+        <link href='https://fonts.googleapis.com/css?family=Days One' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <strong><top>Photos</top></strong>
+            <a href="music.html">Music</a>
+            <a href="videos.html">Videos</a>
+
+        </nav>
+
+        <div class="container">
+            <h2><center>Generate a Zoey's Extraordinary Playlist Fanfic</center></h2>
+
+            <p class="instructions">
+                <br />
+                Welcome to the Zoey's Extraordinary Playlist fanfiction generator! This generator
+                will give you a <b>ship,</b> a <b>location,</b> and a <b>trope.</b> After that,
+                what you do with that information is up to you! Want to write an actual fic based
+                off of it? Go for it! Want to just tweet into the void about it! Do that, too, and
+                tag me (<b>@gingerneighbor</b>) so I can see!<br /><br />
+                <small><strong>Note:</strong> This version of the fanfic generator is operating 
+                in <b>ship mode.</b> If you would like to generate a character instead of a ship, 
+                switch to <b>character mode</b> below!<br /></small>
+                <br />
+                <small><strong>Another note:</strong> If you have any notes/something you would
+                 like to see added to the generator, please feel free to DM me!</small>
+                <br /><br />
+            </p>
+
+        <center><table id="mainTable" align="center">
+            <tbody>
+                <tr>
+                    <td id="topButton" colspan="4" style="padding: 15px;" style="text-align:center;"><b><a href="/zoeysfics">Switch to Character Mode</a></b>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table id="mainTable" align="center"><tbody>
+            <tr>
+                <div id="thefunction">
+                <td id="topField" colspan="4" style="padding: 15px;" onclick="clickEventDefault();" style="text-align:center;"><b>Generate your Fic!</b></div></td>
+            </tr>
+            <tr>
+                <td id="emptyField" colspan="4" style="padding: 15px;" style="text-align:center;"></td>
+            </tr>
+            <tr>
+                <th>Ship</th>
+                <th>Location</th> 
+                <th>Trope</th>
+                <th>Adjective</th>
+            </tr>
+            <tr>
+                <td id="leftField" style="text-align:center;"><center><div id="random-character"></div></center></td>
+                <td class="middleField" style="text-align:center;"><center><div id="random-fic"></div></center></td>
+                <td id="rightField" style="text-align:center;"><center><div id="random-trope"></div></center></td>
+                <td id="rightField" style="text-align:center;"><center><div id="random-adjective"></div></center></td>
+            </tr>
+            <tr>
+                <td><button class="button" onclick="setRandomCharacter()">Change</button></td>
+                <td><button class="button" onclick="setRandomLocation()">Change</button></td>
+                <td><button class="button" onclick="setRandomTrope()">Change</button></td>
+                <td><button class="button" onclick="setRandomAdjective()">Change</button></td>
+            </tr>
+            <tr>
+                <td><div id="image">
+                    <img src="images/unlocked.png" width="30" onclick="lock()"></div>
+                </td>
+                <td><div id="image1">
+                    <img src="images/unlocked1.png" width="30" onclick="lock1()"></div>
+                </td>
+                <td><div id="image2">
+                    <img src="images/unlocked2.png" width="30" onclick="lock2()"></div>
+                </td>
+                <td><div id="image3">
+                    <img src="images/unlocked3.png" width="30" onclick="lock3()"></div>
+                </td>
+            </tr>
+            </tbody>
+        </table></center><br><br><div id="resultField" style="text-align: center;"><br></div><body text="#000000" bgcolor="#F9E6F3" link="#e097d9" vlink="#e097d9" alink="#79a2c9"><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe>
+        <script src="main.js"></script>
+    </body>
+</html>
