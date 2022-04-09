@@ -18,13 +18,6 @@
     background-color: #e097d9;
     }
     
-    #topButton{ 
-    width: 700;  
-    height: 100;   
-    border: 1px solid #000;  
-    cursor: pointer;
-    }
-    
     #emptyField{
     width: 700;
     height: 100;
@@ -76,6 +69,33 @@
       display: inline-block;
       font-size: 12px;
       font-family: 'Alata', Alata;
+      border-radius: 6px;
+    }
+
+    .generator {
+        background-color: #e097d9; /* Green */
+        border: 1px solid black;
+        color: black;
+        padding: 15px 100px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        font-family: 'Alata', Alata;
+        border-radius: 6px;
+      }
+
+    .switch {
+        background-color: #F9E6F3; /* Green */
+        border: 1px solid black;
+        color: black;
+        padding: 15px 65px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        font-family: 'Alata', Alata;
+        border-radius: 6px;
     }
 
     .instructions {
@@ -96,7 +116,7 @@
 
     .navbar {
         padding: 20px;
-        background-color: #d3e6e8;
+        background-color: #f8cbef;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -104,8 +124,4 @@
     
     .navbar a, .navbar strong {
         margin-right: 15px;
-    }
-
-    .checkbox {
-        color:aqua;
     }
