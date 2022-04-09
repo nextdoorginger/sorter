@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Song Sorter</title>   
+        <link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>    
+        <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
+        <link rel="stylesheet" href="sorted.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="index.html">Fanfic Generator</a>
+            <strong><top>Song Sorter</top></strong>
+            <a href="index.html">Episode Sorter</a>
+        </nav>
+
+        <main>
+
+        <center>
+            <br /><br />
+            <heading><b>Welcome to the Zoey's Extraordinary Playlist Song Sorter!</b></heading>
+        </center>
+        <p class="instructions"><br>Choose the song you prefer in each battle to get a (hopefully) accurate list of your favorite songs from the show!<br /><br />
+            <small><strong>Note:</strong> Hitting 'no opinion' or 'I like both' frequently will negatively affect your results. If you make a mistake, DO NOT click backspace unless you find it extremely necessary. It will erase all your progress.<br /><br /></small>
+            
+        <table id="mainTable" align="center">
+            <tbody>
+                <tr>
+                    <td id="battleNumber" colspan="3" style="padding-bottom: 10px;" style="text-align:center;"><b>Battle #1<br>0% sorted.</b></td>
+                </tr>
+                <tr>
+                    <td id="leftField" onclick="if(finishFlag==0) sortList(-1);" rowspan="2" style="text-align:center;"></td>
+                    <td class="middleField" onclick="if(finishFlag==0) sortList(0);" style="text-align:center;">I like both!</td>
+                    <td id="rightField" onclick="if(finishFlag==0) sortList(1);" rowspan="2"style="text-align:center;"></td>
+                </tr>
+                <tr>
+                    <td class="middleField" onclick="if(finishFlag==0) sortList(0);"style="text-align:center;">No opinion</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <div id="resultField" style="text-align: center;"><br></div>
+        <p class="other"><center><small><br /><br />used with permission.<br /><br/><a href="http://biasorter.tumblr.com/">created by biasorter</a>.</p>
+        </main>
+        <script src="sort.js"></script>
+    </body>
+</html>
