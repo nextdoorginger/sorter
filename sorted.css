@@ -1,0 +1,100 @@
+#mainTable{
+ 
+font-size: 18px;
+font-family: 'Alata', Alata;
+text-align: center;
+vertical-align: middle;
+width: 510px;
+margin-left: auto;
+margin-right: auto;
+border-collapse: separate;
+border-spacing: 10px 5px;
+ 
+}
+ 
+#leftField{
+ 
+width: 120px;
+height: 200px;
+border: 1px solid #000;
+cursor: pointer;
+ 
+}
+ 
+#rightField{
+ 
+width: 120px;
+height: 200px;
+border: 1px solid #000;
+cursor: pointer;
+ 
+}
+ 
+.middleField{
+ 
+width: 120px;
+height: 90px;
+border: 1px solid #000;
+cursor: pointer;
+ 
+}
+ 
+a{
+ 
+color: #e097d9;
+text-decoration : none;
+ 
+}
+ 
+a:hover{
+ 
+color: #8f8f8f;
+ 
+}
+ 
+body {
+
+margin: 0 auto;
+font-family: 'Assistant', Assistant;
+font-size: 16px;
+background-color: #F9E6F3;
+
+}
+
+main {
+    width: 600px;
+    margin: 0 auto;
+}
+
+heading {
+
+    font-family: 'Alata', Alata;
+    font-size: 20px;
+    
+}
+
+sorterLine {
+    line-height: 1.0
+} 
+
+.navbar {
+    padding: 20px;
+    background-color: #f8cbef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Alata';
+}
+
+.navbar a, .navbar strong {
+    margin-right: 15px;
+}
+
+.instructions {
+    font-family: 'Assistant';
+    font-size: 16px;
+    width: 600px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
