@@ -11,8 +11,8 @@
     <body>
         <nav class="navbar">
             <strong><top>Fanfic Generator</top></strong>
-            <a href="music.html">Song Sorter</a>
-            <a href="videos.html">Episode Sorter</a>
+            <a href="index.html">Song Sorter</a>
+            <a href="index.html">Episode Sorter</a>
 
         </nav>
 
@@ -35,21 +35,17 @@
                 <br /><br />
             </p>
 
-        <center><table id="mainTable" align="center">
-            <tbody>
-                <tr>
-                    <td id="topButton" colspan="4" style="padding: 15px;" style="text-align:center;"><b><a href="/zoeysfics">Switch to Character Mode</a></b>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <center>
+
+        <button class="switch"><b><a href="/zoeysfics">Switch to Character Mode</a></b></button>
+
+        <div id="thefunction">
+        <button class="generator" onclick="clickEventDefault()"><b>Generate your Fic!</b></button>
+        </div>
+
         <table id="mainTable" align="center"><tbody>
             <tr>
-                <div id="thefunction">
-                <td id="topField" colspan="4" style="padding: 15px;" onclick="clickEventDefault();" style="text-align:center;"><b>Generate your Fic!</b></div></td>
-            </tr>
-            <tr>
-                <td id="emptyField" colspan="4" style="padding: 15px;" style="text-align:center;"></td>
+                <td id="emptyField" colspan="4" style="padding: 5px;" style="text-align:center;"></td>
             </tr>
             <tr>
                 <th>Ship</th>
