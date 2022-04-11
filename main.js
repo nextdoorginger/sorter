@@ -179,6 +179,7 @@ const adjectives = [
   "Disappointing"
   ];
 
+
 var LocationStatus = 1;
 
 var TropeStatus = 1;
@@ -225,86 +226,69 @@ const setRandomAdjective = () => {
 
 //**********************************************
 
-function charValue1 (){
-  CharacterStatus = 0;
-}
-
-function charValue2 (){
-  CharacterStatus = 1;
-}
 
 function clickEventDefault(){
-  setRandomLocation();
-  setRandomTrope();
-  setRandomCharacter();
-  setRandomAdjective();
-}
-
-function clickEventNoS() {
-  setRandomTrope();
-  setRandomLocation();
-  setRandomAdjective();
-}
-
-function checkStatus() {
-  if (CharacterStatus = 0) {
-    document.getElementById("thefunction").innerHTML = '<button class="generator" onclick="clickEventNoS()"><b>Generate your Fic!</b></button>';
+  if (CharacterStatus == 1) {
+    setRandomCharacter();
   }
+
+  if (LocationStatus == 1) {
+    setRandomLocation();
+  }
+
+  if (TropeStatus == 1) {
+    setRandomTrope();
+  }
+
+  if (AdjectiveStatus == 1) {
+    setRandomAdjective();
+  }
+  
+  // setRandomTrope();
+  //setRandomCharacter();
+  //setRandomAdjective();
 }
 
 
 function lock(){
   document.getElementById("image").innerHTML = '<img src="images/locked.png" width="30" onclick="unlock()">';
-  document.getElementById("thefunction").innerHTML = '<button class="generator" onclick="clickEventNoS()"><b>Generate your Fic!</b></button>';
-  charValue1();
-  checkStatus();
-  console.log(CharacterStatus);
+  CharacterStatus = 0;
 }
 
 function unlock() {
     document.getElementById("image").innerHTML = '<img src="images/unlocked.png" width="30" onclick="lock()">';
-    document.getElementById("thefunction").innerHTML = '<button class="generator" onclick="clickEventDefault()"><b>Generate your Fic!</b></button>';
-    charValue2();
-    checkStatus();
-    console.log(CharacterStatus);
+    CharacterStatus = 1;
 }
 
 function lock1(){
   document.getElementById("image1").innerHTML = '<img src="images/locked1.png" width="30" onclick="unlock1()">';
-  locationStatus = 0;
+  LocationStatus = 0;
 }
 
 function unlock1() {
     document.getElementById("image1").innerHTML = '<img src="images/unlocked1.png" width="30" onclick="lock1()">';
-    locationStatus = 1;
+    LocationStatus = 1;
     checkStatus();
 }
 function lock2(){
   document.getElementById("image2").innerHTML = '<img src="images/locked2.png" width="30" onclick="unlock2()">';
-  tropeStatus = 0;
+  TropeStatus = 0;
   checkStatus();
 }
 
 function unlock2() {
     document.getElementById("image2").innerHTML = '<img src="images/unlocked2.png" width="30" onclick="lock2()">';
-    tropeStatus = 1;
+    TropeStatus = 1;
     checkStatus();
 }
 function lock3(){
   document.getElementById("image3").innerHTML = '<img src="images/locked3.png" width="30" onclick="unlock3()">';
-  locationStatus = 0;
+  AdjectiveStatus = 0;
   checkStatus();
 }
 
 function unlock3() {
     document.getElementById("image3").innerHTML = '<img src="images/unlocked3.png" width="30" onclick="lock3()">';
-    locationStatus = 1;
+    AdjectiveStatus = 1;
     checkStatus();
-}
-
-{/* //
-// function myFunction() {
-//  document.getElementById("demo").innerHTML = "Hello World";
-//}
-// */
 }
