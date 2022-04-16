@@ -98,7 +98,7 @@ const tropes = [
   "Secret relationship",
   "Exes to lovers",
   "Online dating",
-  "Missing scene,
+  "Missing scene",
   "Miscommunication",
   "Canon compliant",
   "Canon divergence",
