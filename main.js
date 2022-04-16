@@ -46,6 +46,7 @@ const locations = [
 const tropes = [
   "Fake dating",
   "Best friends to lovers",
+  "Friends to lovers",
   "Enemies to lovers",
   "Trapped in an elevator",
   "Kidfic",
@@ -57,6 +58,7 @@ const tropes = [
   "Major character death",
   "Angst with a happy ending",
   "Angst",
+  "Fluff",
   "Hurt/comfort",
   "Found family",
   "5+1 things",
@@ -72,6 +74,7 @@ const tropes = [
   "Enemies to friends to lovers",
   "Strangers to lovers",
   "Mutual pining",
+  "One-sided pining",
   "Idiots in love",
   "Unrequited love",
   "Vegas fic",
@@ -92,7 +95,17 @@ const tropes = [
   "Established relationship",
   "Long-distance relationship",
   "Hate at first sight",
-  "Secret relationship"
+  "Secret relationship",
+  "Exes to lovers",
+  "Online dating",
+  "Missing scene,
+  "Miscommunication",
+  "Canon compliant",
+  "Canon divergence",
+  "Slow burn",
+  "Sickfic",
+  "Hurt no comfort",
+  "Confession of feelings"
   ];
 
 const characters = [
@@ -178,7 +191,8 @@ const adjectives = [
   "Unfamiliar",
   "Hesitant",
   "Gentle",
-  "Disappointing"
+  "Disappointing",
+  "Disaster"
   ];
 
 
